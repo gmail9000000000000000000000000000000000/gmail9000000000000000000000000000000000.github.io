@@ -1,0 +1,270 @@
+html {
+  -webkit-user-select: none; 
+  -ms-user-select: none; 
+  user-select: none; 
+}	
+
+.links {
+	padding: 10px;
+	text-align: center;
+	top: 0;
+	position: sticky;
+	position: -webkit-sticky;
+}	
+
+.links a {
+	padding: 8.4786328462px;
+	border: 2px solid black;
+	font-size: 25px;
+	border-radius: 3px;
+	background-color: black;
+	color: white;
+	text-decoration: none;
+	color: white;
+	transition: 0.3s;
+}	
+
+.links a:hover {
+	background-color: white;
+	color: black;
+	border-color: white;
+}
+
+.head {
+  padding-top: 0px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 5px;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left;
+  font-stretch: expanded;
+  color: #whitesmoke;
+}
+
+.head img {
+	margin-right: auto;
+	margin-left: auto;
+}	
+
+body {
+  background-image: url("none.png");
+  background-repeat: no-repeat;
+  color: white;
+}	
+
+html {
+  background-image: url("bg.png");
+  background-repeat: repeat;
+  background-color: #000000;
+}	
+
+.main {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-bottom: 10px;
+}	
+
+.main h1 {
+	padding-top: 50px;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-bottom: 5px;
+	text-align: center;
+	font-size: 50px;
+	color: white;
+	text-shadow: 0px 0px 15px black;
+}	
+
+.main p {
+	text-align: center;
+	font-size: 35px;
+}	
+
+footer {
+	display: block;
+	background-color: #000000;
+	color: #fff;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	width: 100%;
+	position: relative;
+	text-align: center;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}	
+
+footer a {
+	margin: 10px;
+	opacity: 50%;
+	transition: 0.3s;
+	filter: grayscale(100%);
+	-webkit-filter: grayscale(100%);
+}	
+
+footer a:hover {
+	opacity: 100%;
+	filter: grayscale(0);
+	-webkit-filter: grayscale(0);
+}	
+
+.tables {
+	color: white;
+	margin: 100px;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	
+}	
+
+.tables td {
+	white-space: pre;
+	border-style: hidden hidden solid hidden;
+	border-color: white;
+	text-align: left;
+}	
+
+.tables #questions {
+	text-align: right;
+}	
+
+.tables th {
+	font-size: 15px;
+	padding: 0px;
+	border-style: hidden hidden solid hidden;
+	border-color: white;
+}	
+
+.form {
+	margin-left: 45.5%;
+	margin-right: 0;
+	margin-top: 0;
+	margin-bottom: 100px;
+	font-family: Arial, Helvetica, sans-serif;
+}	
+
+.description p {
+	text-align: center;
+	white-space: pre;
+}	
+
+.gamestables {
+	display: block;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+	white-space: pre;
+	padding: 15px;
+}	
+
+.gamestables img {
+	border: solid white 5px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+	transition: 0.5s;
+}	
+
+.gamestables img:hover {
+	transform: scale(1.25);
+	border-color: red;
+}	
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}	
+
+.gamedesc {
+	padding-top: 50px;
+	padding-bottom: 50px;
+	padding-left: 50px;
+	padding-right: 50px;
+}	
+
+.gamedesc p {
+	padding: 100px;
+}	
+
+.gamedesc img {
+	border: 5px solid white;
+	transition: 0.5s;
+}	
+
+.gamedesc img:hover {
+	transform: scale(1.25);
+	border-color: red;
+}	
+
+.purchasebutton {
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+	padding-bottom: 45px;
+}	
+
+.purchasebutton a {
+	border: 2px solid;
+	border-color: white;
+	border-radius: 10px;
+	text-decoration: none;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: #f8f8f8;
+	color: black;
+	transition: 0.5s;
+
+}	
+
+.purchasebutton a:hover {
+	background-color: red;
+	color: white;
+	border-color: red;
+	padding-left: 15px;
+	padding-right: 15px;
+	border: 5px solid red;
+}	
+
+.bannerimage {
+	background: url("Banner.jpg") no-repeat;
+	display: flex;
+	align-items: center;
+	background-size: cover;
+	height: 800px;
+	width: 100%;
+}
+
+.navbar {
+	position: fixed;
+	top: -250px;
+	width: 100%;
+	transition: 0.5s;
+}	
+
+.companydesc {
+	padding-top: 150px;
+	padding-bottom: 100px;
+}	
+
+.companydesc p {
+	font-size: 20px;
+	padding: 10px;
+}	
+
+.companydesc h1 {
+	font-size: 70px;
+	padding-bottom: 15px;
+	border: 2px white;
+	border-style: hidden hidden solid hidden;
+}	
+
